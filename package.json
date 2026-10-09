@@ -1,0 +1,32 @@
+{
+  "name": "@codewarstools/codewars-languages",
+  "version": "1.0.0",
+  "description": "Language identifiers for Codewars",
+  "license": "MIT",
+  "type": "module",
+  "types": "./languages.d.ts",
+  "exports": {
+    ".": {
+      "types": "./languages.d.ts",
+      "import": "./languages.js"
+    }
+  },
+  "files": [
+    "languages.js",
+    "languages.d.ts"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodewarsTools/codewars-languages.git"
+  },
+  "homepage": "https://github.com/CodewarsTools/codewars-languages",
+  "bugs": {
+    "url": "https://github.com/CodewarsTools/codewars-languages/issues"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
